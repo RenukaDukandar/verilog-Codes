@@ -1,3 +1,4 @@
+```
 module sync_fifo_16_8 (
 input clk,
 input rst,
@@ -9,7 +10,6 @@ output full,
 output reg [7:0] data_out
 );
 
-```
 reg [7:0] memory [0:15];
 reg [3:0] wr_pt, rd_pt;
 reg [4:0] fifo_counter;
@@ -55,6 +55,7 @@ always @(posedge clk) begin
         rd_pt <= rd_pt + 1'b1;
     end
 end
-```
+
 
 endmodule
+```
