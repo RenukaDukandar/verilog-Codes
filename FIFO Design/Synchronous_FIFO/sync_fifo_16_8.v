@@ -1,4 +1,3 @@
-```
 module sync_fifo_16_8 (
 input clk,
 input rst,
@@ -58,4 +57,3 @@ end
 
 
 endmodule
-```
