@@ -1,5 +1,6 @@
 hii im in FIFO
 # FIFO
+```
 module FIFO_16_8(
     input clk,
     input rst,
