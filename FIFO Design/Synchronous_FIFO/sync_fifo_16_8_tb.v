@@ -1,6 +1,4 @@
 module sync_fifo_16_8_tb;
-
-```
 reg clk, rst, we, re;
 reg [7:0] data_in;
 wire empty, full;
@@ -74,6 +72,4 @@ initial begin
     $monitor("time=%0t rst=%b we=%b re=%b data_in=%h data_out=%h full=%b empty=%b",
              $time, rst, we, re, data_in, data_out, full, empty);
 end
-
-```
 endmodule
